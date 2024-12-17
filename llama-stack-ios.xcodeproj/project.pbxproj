@@ -16,37 +16,27 @@
 			containerPortal = 6DA153032D1167B400C9159C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DA1530A2D1167B400C9159C;
-			remoteInfo = "llamaStak-ios";
+			remoteInfo = "llama-stack-ios";
 		};
 		6DA153272D1167B600C9159C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DA153032D1167B400C9159C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DA1530A2D1167B400C9159C;
-			remoteInfo = "llamaStak-ios";
+			remoteInfo = "llama-stack-ios";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6DA1530B2D1167B400C9159C /* llamaStak-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "llamaStak-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DA1531C2D1167B600C9159C /* llamaStak-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "llamaStak-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DA153262D1167B600C9159C /* llamaStak-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "llamaStak-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA1530B2D1167B400C9159C /* llama-stack-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "llama-stack-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA1531C2D1167B600C9159C /* llama-stack-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "llama-stack-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA153262D1167B600C9159C /* llama-stack-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "llama-stack-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6DA1530D2D1167B400C9159C /* llamaStak-ios */ = {
+		6DA1530D2D1167B400C9159C /* llama-stack-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "llamaStak-ios";
-			sourceTree = "<group>";
-		};
-		6DA1531F2D1167B600C9159C /* llamaStak-iosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "llamaStak-iosTests";
-			sourceTree = "<group>";
-		};
-		6DA153292D1167B600C9159C /* llamaStak-iosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "llamaStak-iosUITests";
+			path = "llama-stack-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,9 +70,7 @@
 		6DA153022D1167B400C9159C = {
 			isa = PBXGroup;
 			children = (
-				6DA1530D2D1167B400C9159C /* llamaStak-ios */,
-				6DA1531F2D1167B600C9159C /* llamaStak-iosTests */,
-				6DA153292D1167B600C9159C /* llamaStak-iosUITests */,
+				6DA1530D2D1167B400C9159C /* llama-stack-ios */,
 				6DA1530C2D1167B400C9159C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,9 +78,9 @@
 		6DA1530C2D1167B400C9159C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DA1530B2D1167B400C9159C /* llamaStak-ios.app */,
-				6DA1531C2D1167B600C9159C /* llamaStak-iosTests.xctest */,
-				6DA153262D1167B600C9159C /* llamaStak-iosUITests.xctest */,
+				6DA1530B2D1167B400C9159C /* llama-stack-ios.app */,
+				6DA1531C2D1167B600C9159C /* llama-stack-iosTests.xctest */,
+				6DA153262D1167B600C9159C /* llama-stack-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DA1530A2D1167B400C9159C /* llamaStak-ios */ = {
+		6DA1530A2D1167B400C9159C /* llama-stack-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA153302D1167B600C9159C /* Build configuration list for PBXNativeTarget "llamaStak-ios" */;
+			buildConfigurationList = 6DA153302D1167B600C9159C /* Build configuration list for PBXNativeTarget "llama-stack-ios" */;
 			buildPhases = (
 				6DA153072D1167B400C9159C /* Sources */,
 				6DA153082D1167B400C9159C /* Frameworks */,
@@ -113,19 +101,19 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6DA1530D2D1167B400C9159C /* llamaStak-ios */,
+				6DA1530D2D1167B400C9159C /* llama-stack-ios */,
 			);
-			name = "llamaStak-ios";
+			name = "llama-stack-ios";
 			packageProductDependencies = (
 				6DA1533A2D11699A00C9159C /* LlamaStackClient */,
 			);
-			productName = "llamaStak-ios";
-			productReference = 6DA1530B2D1167B400C9159C /* llamaStak-ios.app */;
+			productName = "llama-stack-ios";
+			productReference = 6DA1530B2D1167B400C9159C /* llama-stack-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DA1531B2D1167B600C9159C /* llamaStak-iosTests */ = {
+		6DA1531B2D1167B600C9159C /* llama-stack-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA153332D1167B600C9159C /* Build configuration list for PBXNativeTarget "llamaStak-iosTests" */;
+			buildConfigurationList = 6DA153332D1167B600C9159C /* Build configuration list for PBXNativeTarget "llama-stack-iosTests" */;
 			buildPhases = (
 				6DA153182D1167B600C9159C /* Sources */,
 				6DA153192D1167B600C9159C /* Frameworks */,
@@ -136,19 +124,16 @@
 			dependencies = (
 				6DA1531E2D1167B600C9159C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6DA1531F2D1167B600C9159C /* llamaStak-iosTests */,
-			);
-			name = "llamaStak-iosTests";
+			name = "llama-stack-iosTests";
 			packageProductDependencies = (
 			);
-			productName = "llamaStak-iosTests";
-			productReference = 6DA1531C2D1167B600C9159C /* llamaStak-iosTests.xctest */;
+			productName = "llama-stack-iosTests";
+			productReference = 6DA1531C2D1167B600C9159C /* llama-stack-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6DA153252D1167B600C9159C /* llamaStak-iosUITests */ = {
+		6DA153252D1167B600C9159C /* llama-stack-iosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA153362D1167B600C9159C /* Build configuration list for PBXNativeTarget "llamaStak-iosUITests" */;
+			buildConfigurationList = 6DA153362D1167B600C9159C /* Build configuration list for PBXNativeTarget "llama-stack-iosUITests" */;
 			buildPhases = (
 				6DA153222D1167B600C9159C /* Sources */,
 				6DA153232D1167B600C9159C /* Frameworks */,
@@ -159,14 +144,11 @@
 			dependencies = (
 				6DA153282D1167B600C9159C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6DA153292D1167B600C9159C /* llamaStak-iosUITests */,
-			);
-			name = "llamaStak-iosUITests";
+			name = "llama-stack-iosUITests";
 			packageProductDependencies = (
 			);
-			productName = "llamaStak-iosUITests";
-			productReference = 6DA153262D1167B600C9159C /* llamaStak-iosUITests.xctest */;
+			productName = "llama-stack-iosUITests";
+			productReference = 6DA153262D1167B600C9159C /* llama-stack-iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DA153062D1167B400C9159C /* Build configuration list for PBXProject "llamaStak-ios" */;
+			buildConfigurationList = 6DA153062D1167B400C9159C /* Build configuration list for PBXProject "llama-stack-ios" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -209,9 +191,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DA1530A2D1167B400C9159C /* llamaStak-ios */,
-				6DA1531B2D1167B600C9159C /* llamaStak-iosTests */,
-				6DA153252D1167B600C9159C /* llamaStak-iosUITests */,
+				6DA1530A2D1167B400C9159C /* llama-stack-ios */,
+				6DA1531B2D1167B600C9159C /* llama-stack-iosTests */,
+				6DA153252D1167B600C9159C /* llama-stack-iosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,12 +249,12 @@
 /* Begin PBXTargetDependency section */
 		6DA1531E2D1167B600C9159C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DA1530A2D1167B400C9159C /* llamaStak-ios */;
+			target = 6DA1530A2D1167B400C9159C /* llama-stack-ios */;
 			targetProxy = 6DA1531D2D1167B600C9159C /* PBXContainerItemProxy */;
 		};
 		6DA153282D1167B600C9159C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DA1530A2D1167B400C9159C /* llamaStak-ios */;
+			target = 6DA1530A2D1167B400C9159C /* llama-stack-ios */;
 			targetProxy = 6DA153272D1167B600C9159C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,10 +379,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "llamaStak-ios/llamaStak_ios.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "llama-stack-ios/llama_stack_ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"llamaStak-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"llama-stack-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = G53V2W398W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -420,7 +402,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llamaStak-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llama-stack-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -436,10 +418,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "llamaStak-ios/llamaStak_ios.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "llama-stack-ios/llama_stack_ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"llamaStak-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"llama-stack-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = G53V2W398W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -459,7 +441,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llamaStak-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llama-stack-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -481,14 +463,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llamaStak-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llama-stack-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/llamaStak-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/llamaStak-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/llama-stack-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/llama-stack-ios";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -504,14 +486,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llamaStak-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llama-stack-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/llamaStak-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/llamaStak-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/llama-stack-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/llama-stack-ios";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -526,14 +508,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llamaStak-iosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llama-stack-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "llamaStak-ios";
+				TEST_TARGET_NAME = "llama-stack-ios";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -548,14 +530,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llamaStak-iosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishrutjha.llama-stack-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "llamaStak-ios";
+				TEST_TARGET_NAME = "llama-stack-ios";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -563,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DA153062D1167B400C9159C /* Build configuration list for PBXProject "llamaStak-ios" */ = {
+		6DA153062D1167B400C9159C /* Build configuration list for PBXProject "llama-stack-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA1532E2D1167B600C9159C /* Debug */,
@@ -572,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DA153302D1167B600C9159C /* Build configuration list for PBXNativeTarget "llamaStak-ios" */ = {
+		6DA153302D1167B600C9159C /* Build configuration list for PBXNativeTarget "llama-stack-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA153312D1167B600C9159C /* Debug */,
@@ -581,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DA153332D1167B600C9159C /* Build configuration list for PBXNativeTarget "llamaStak-iosTests" */ = {
+		6DA153332D1167B600C9159C /* Build configuration list for PBXNativeTarget "llama-stack-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA153342D1167B600C9159C /* Debug */,
@@ -590,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DA153362D1167B600C9159C /* Build configuration list for PBXNativeTarget "llamaStak-iosUITests" */ = {
+		6DA153362D1167B600C9159C /* Build configuration list for PBXNativeTarget "llama-stack-iosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA153372D1167B600C9159C /* Debug */,

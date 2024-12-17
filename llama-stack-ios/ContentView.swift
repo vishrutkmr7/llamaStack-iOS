@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  llamaStak-ios
+//  llama-stack-ios
 //
 //  Created by Vishrut Jha on 12/17/24.
 //

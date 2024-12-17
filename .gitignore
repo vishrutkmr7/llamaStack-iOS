@@ -1,5 +1,5 @@
 # Config file with sensitive data
-llamaStak-ios/Config.swift
+llama-stack-ios/Config.swift
 
 # Other standard iOS gitignore entries...
 .DS_Store
